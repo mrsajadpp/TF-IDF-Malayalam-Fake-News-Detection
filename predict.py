@@ -17,5 +17,5 @@ def predict(news_text: str = Query(..., description="Enter Malayalam news text")
 
 # Test with example
 news_example = "കേരളത്തിൽ പമ്പ താലൂക്കിൽ ഭൂകമ്പം ഉണ്ടായതായി റിപ്പോർട്ട്"
-fake_news = "ചന്ദ്രനിൽ ഒരു മലയാളി കെട്ടിടം നിർമ്മിച്ചു"
+fake_news = "വിളക്കുതീ ഉണ്ടാക്കുന്നതിന് പുതിയ നിയമങ്ങൾ നടപ്പാക്കുന്നു"
 print(f"Prediction: {predict(fake_news)}")
